@@ -1,0 +1,15 @@
+{
+  "name": "ash",
+  "version": "1.0.0",
+  "description": "this is a mock server",
+  "main": "index.js",
+  "author": "Muhammad Ashraful Alam",
+  "license": "MIT",
+  "private": null,
+  "dependencies": {
+    "json-server": "^1.0.0-alpha.23"
+  },
+  "scripts": {
+    "start": "json-server --watch ./database/data.json"
+  }
+}
