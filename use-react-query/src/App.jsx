@@ -4,7 +4,7 @@ import ProductList from './components/ProductList'
 function App() {
 
   return (
-    <div className="text-green-800 text-center text-[40px] text-bold py-5">
+    <div className="max-w-[1440px] px-5 mx-auto">
       <ProductList/>
     </div>
   )
