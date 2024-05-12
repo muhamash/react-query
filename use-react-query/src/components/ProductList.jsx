@@ -5,9 +5,9 @@ import Product from './Product';
 
 const retrieveProducts = async ( object ) =>
 {
-    console.log(object)
     const response = await axios.get( `http://localhost:3000/${object.queryKey[0]}` );
-    console.log(response)
+    console.log( "product", response, "and object", object )
+
     return response.data;
 };
 
@@ -29,7 +29,7 @@ export default function ProductList() {
             ) : (
                 <div>
                     <p className="text-green-800 text-center text-[40px] text-bold py-5">Total Products: { productList.length }</p>
-                    <div className="flex flex-wrap gap-10">
+                    <div className="flex flex-wrap gap-10 justify-center items-center">
                         {
                             productList && productList.map( ( product ) => (
                                 <div key={ product.id }>
