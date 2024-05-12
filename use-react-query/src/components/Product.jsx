@@ -1,13 +1,14 @@
 import React from 'react';
+import { useSelectedId } from './hooks/SelectedContext';
 
-export default function Product ( { image, title, rating, inStock, price, id } )
+export default function Product ( { image, title, rating, inStock, price, onClick, id } )
 {
     // console.log(inStock);
-
-    const handleCLick = ( id ) =>
-    {
-        console.log(id)
-    }
+    const { handleSelection } = useSelectedId();
+    // const handleCLick = ( id ) =>
+    // {
+    //     console.log(id)
+    // }
 
     return (
         <div className="flex flex-col gap-5 w-[300px] bg-slate-300 p-3 rounded-md bg-opacity-50 hover:shadow-md">
@@ -29,7 +30,7 @@ export default function Product ( { image, title, rating, inStock, price, id } )
                     <span className="text-md font-bold text-gray-900">Product Details:</span>   <span className="text-[12px] leading-tight  text-gray-700">{ description }</span>
                 </p> */}
                 <p
-                    onClick={()=>handleCLick(id)}
+                    onClick={()=>handleSelection(id)}
                     className="bg-green-600 text-white rounded-md text-center px-3 py-2 w-fit cursor-pointer hover:shadow-md shadow-white">Show details</p>
             </div>
         </div>
