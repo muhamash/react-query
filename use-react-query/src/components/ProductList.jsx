@@ -15,9 +15,9 @@ export default function ProductList() {
     const { data: productList, error, isLoading } = useQuery( {
         queryKey: [ "products" ],
         queryFn: retrieveProducts,
-        // retry: false,
-        // staleTime
-        // refetchInterval: false
+        // retry: true,
+        // staleTime: 1000,
+        // refetchInterval: 3000,
     } );
 
     if (isLoading) return <div>Loading...</div>;
