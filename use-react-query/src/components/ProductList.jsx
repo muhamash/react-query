@@ -16,7 +16,7 @@ export default function ProductList() {
         queryKey: [ "products" ],
         queryFn: retrieveProducts,
         // retry: true,
-        // staleTime: 1000,
+        // staleTime: 1000, 
         // refetchInterval: 3000,
     } );
 
@@ -38,7 +38,7 @@ export default function ProductList() {
                                         price={ product.price }
                                         rating={ product.rating }
                                         inStock={ product.stock }
-                                        description= {product.description}
+                                        id={product.id}
                                     />
                                 </div>
                             ) )

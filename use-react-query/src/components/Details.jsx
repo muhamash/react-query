@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import axios from 'axios';
 import React from 'react';
+import Trailer from "./Trailer";
 
 const retrieveProducts = async ( object ) =>
 {
@@ -26,10 +27,12 @@ export default function Details ( { id } )
 
   return (
     <div classNames="">
-      <p className="text-green-800 text-center text-[40px] text-bold">Product Details:</p>
+      <p className="text-green-800 text-center text-[40px] text-bold">Show Details:</p>
       {
         productList ? (
-          <div>dw</div>
+          <div>
+            <Trailer description={productList.description}/>
+          </div>
             ):(
             <div>click that [ button ] to show product details</div>
         )
