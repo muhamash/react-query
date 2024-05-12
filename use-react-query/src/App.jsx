@@ -5,7 +5,7 @@ import ProductList from './components/ProductList'
 function App() {
 
   return (
-    <div className="max-w-[1440px] px-5 mx-auto flex gap-5 justify-center items-center">
+    <div className="max-w-[1440px] p-5 mx-auto flex gap-5 justify-center ">
       <div className='w-2/3'>
         <ProductList/>
       </div>

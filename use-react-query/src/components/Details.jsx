@@ -25,8 +25,15 @@ export default function Details ( { id } )
   if ( error ) return <div>Error: { error.message }</div>
 
   return (
-    <div>
-      <p className="text-green-800 text-center text-[40px] text-bold">Product Details</p>
+    <div classNames="">
+      <p className="text-green-800 text-center text-[40px] text-bold">Product Details:</p>
+      {
+        productList ? (
+          <div>dw</div>
+            ):(
+            <div>click that [ button ] to show product details</div>
+        )
+      }
     </div>
   )
 }

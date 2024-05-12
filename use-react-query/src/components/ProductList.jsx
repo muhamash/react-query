@@ -28,7 +28,7 @@ export default function ProductList() {
                 <div>Error: { error.message }</div>
             ) : (
                 <div>
-                    <p className="text-green-800 text-center text-[40px] text-bold py-5">Total Products: { productList.length }</p>
+                    <p className="text-green-800 text-center text-[30px] text-bold pb-5">Total Products: { productList.length }</p>
                     <div className="flex flex-wrap gap-10 justify-center items-center">
                         {
                             productList && productList.map( ( product ) => (
@@ -37,7 +37,8 @@ export default function ProductList() {
                                         title={ product.title }
                                         price={ product.price }
                                         rating={ product.rating }
-                                        inStock={product.stock}
+                                        inStock={ product.stock }
+                                        description= {product.description}
                                     />
                                 </div>
                             ) )
