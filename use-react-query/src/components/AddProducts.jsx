@@ -4,6 +4,7 @@ import React from 'react';
 
 export default function AddProducts ()
 {
+    const [showMessage, setShowMessage] = React.useState(false);
     const queryClient = useQueryClient();
     const [ state, setState ] = React.useState( {
         title: "",
@@ -18,11 +19,22 @@ export default function AddProducts ()
     const mutation = useMutation( {
         mutationFn: ( newProduct ) => axios.post( `http://localhost:3000/products`, newProduct ),
         // 
-        onSuccess: () =>
+        onSuccess: ( data, variables, context ) =>
         {
+            console.log(context)
             queryClient.invalidateQueries( [ 'products' ] )
+            setShowMessage( true );
+            setTimeout( () =>
+            {
+                setShowMessage( false );
+            }, 5000 );
+        },
+        onMutate: ( variables ) =>
+        {
+            return {greeting: 'say hello'}
         }
-    })
+    } );
+
     const submit = ( event ) =>
     {
         event.preventDefault();
@@ -51,9 +63,21 @@ export default function AddProducts ()
         } )
         
     }
+
+    // if (mutation.isSuccess) {
+    //     setShowMessage( true );
+    //     setTimeout( () =>
+    //     {
+    //         setShowMessage( false );
+    //     }, 5000 );
+    // }
+
     return (
         <div className="bg-gray-100  p-5">
             <p className="py-3 text-xl text-violet-600">Add a product</p>
+            {
+                showMessage && <p className="py-3 font-mono text-sm text-orange-500 pb-3">Product added to the list!</p>
+            }
             <form onSubmit={ submit }
                 className="flex flex-col gap-10"
             >
@@ -87,6 +111,7 @@ export default function AddProducts ()
                 />
                 <input
                     name="stock"
+                    type="number"
                     onChange={ handleChange }
                     value={ state.stock }
                     className='p-1 rounded-md'
