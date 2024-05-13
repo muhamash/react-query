@@ -20,16 +20,24 @@ export default function AddProducts ()
         // 
         onSuccess: () =>
         {
-            queryClient.invalidateQueries(['products'])
+            queryClient.invalidateQueries( [ 'products' ] )
         }
     })
     const submit = ( event ) =>
     {
         event.preventDefault();
-        console.log( state )
         const addId = { ...state, id: crypto.randomUUID().toString() };
-        console.log( addId );
         mutation.mutate( addId );
+        setState( {
+            title: "",
+            price: "",
+            rating: "",
+            brand: "",
+            stock: "",
+            description: "",
+            thumbnail: ""
+        } );
+        
     }
 
     const handleChange = (event) =>
