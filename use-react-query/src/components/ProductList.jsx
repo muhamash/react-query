@@ -5,7 +5,7 @@ import Product from './Product';
 
 const retrieveProducts = async ( object ) =>
 {
-    const response = await axios.get( `http://localhost:3000/products?_page=${object.queryKey[1].page}&_per_page=3` );
+    const response = await axios.get( `http://localhost:3000/products?_page=${object.queryKey[1].page}&_per_page=2` );
     console.log( "product", response, "and object", object.queryKey )
 
     return response.data;
@@ -46,8 +46,27 @@ export default function ProductList ()
                             ) )
                         }
                         </div>
-                        <div>
-
+                        <div className="flex items-center justify-center py-10">
+                            {
+                                productList.prev && (
+                                    <button
+                                        className="bg-slate-500 text-white px-4 py-1 rounded-md"
+                                        onClick={()=>setPage(productList.prev)}
+                                    >
+                                        Prev
+                                    </button>
+                                )
+                            }
+                            {
+                                productList.next && (
+                                    <button
+                                        className="bg-slate-200 px-4 py-1 rounded-md"
+                                    onClick={()=>setPage(productList.next)}
+                                    >
+                                        Next
+                                    </button>
+                                )
+                            }
                         </div>
                 </div>
             ) }
