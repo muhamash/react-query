@@ -1,58 +1,6 @@
 {
   "products": [
     {
-      "id": "1",
-      "title": "iPhone 9",
-      "description": "An apple mobile which is nothing like apple",
-      "price": 549,
-      "discountPercentage": 12.96,
-      "rating": 4.69,
-      "stock": 94,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/1/1.jpg",
-        "https://cdn.dummyjson.com/product-images/1/2.jpg",
-        "https://cdn.dummyjson.com/product-images/1/3.jpg",
-        "https://cdn.dummyjson.com/product-images/1/4.jpg",
-        "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": "2",
-      "title": "iPhone X",
-      "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
-      "price": 899,
-      "discountPercentage": 17.94,
-      "rating": 4.44,
-      "stock": 34,
-      "brand": "Apple",
-      "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/2/1.jpg",
-        "https://cdn.dummyjson.com/product-images/2/2.jpg",
-        "https://cdn.dummyjson.com/product-images/2/3.jpg",
-        "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
-      ]
-    },
-    {
-      "id": "3",
-      "title": "Samsung Universe 9",
-      "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
-      "price": 1249,
-      "discountPercentage": 15.46,
-      "rating": 4.09,
-      "stock": 36,
-      "brand": "Samsung",
-      "category": "smartphones",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/3/thumbnail.jpg",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/3/1.jpg"
-      ]
-    },
-    {
       "id": "4",
       "title": "OPPOF19",
       "description": "OPPO F19 is officially announced on April 2021.",
@@ -86,24 +34,6 @@
         "https://cdn.dummyjson.com/product-images/5/1.jpg",
         "https://cdn.dummyjson.com/product-images/5/2.jpg",
         "https://cdn.dummyjson.com/product-images/5/3.jpg"
-      ]
-    },
-    {
-      "id": "6",
-      "title": "MacBook Pro",
-      "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
-      "price": 1749,
-      "discountPercentage": 11.02,
-      "rating": 4.57,
-      "stock": 83,
-      "brand": "Apple",
-      "category": "laptops",
-      "thumbnail": "https://cdn.dummyjson.com/product-images/6/thumbnail.png",
-      "images": [
-        "https://cdn.dummyjson.com/product-images/6/1.png",
-        "https://cdn.dummyjson.com/product-images/6/2.jpg",
-        "https://cdn.dummyjson.com/product-images/6/3.png",
-        "https://cdn.dummyjson.com/product-images/6/4.jpg"
       ]
     },
     {
@@ -583,56 +513,6 @@
       "thumbnail": "https://cdn.dummyjson.com/product-images/2/2.jpg"
     },
     {
-      "id": "5780fbf5-a04c-45a6-b094-b965f1467944",
-      "title": "asfasfd",
-      "price": "sfasfasf",
-      "rating": "fasfasfasf",
-      "brand": "sfasfasfasf",
-      "stock": "safasfasf",
-      "description": "safasfsaf",
-      "thumbnail": "safasfasf"
-    },
-    {
-      "id": "5c259eca-d298-4dea-b2d6-7fcaa66df5a8",
-      "title": "asfasfd",
-      "price": "sfasfasf",
-      "rating": "fasfasfasf",
-      "brand": "sfasfasfasf",
-      "stock": "safasfasf",
-      "description": "safasfsaf",
-      "thumbnail": "safasfasf"
-    },
-    {
-      "id": "af1b8bad-d53a-4f45-83f0-a50d52b98100",
-      "title": "scsacvs",
-      "price": "scscscs",
-      "rating": "cscscsc",
-      "brand": "cscscs",
-      "stock": "cscscsc",
-      "description": "scscscsc",
-      "thumbnail": "scscscsc"
-    },
-    {
-      "id": "7aacd1d2-c106-4bd3-a61c-8ddf2327478c",
-      "title": "scsacvs",
-      "price": "scscscs",
-      "rating": "cscscsc",
-      "brand": "cscscs",
-      "stock": "cscscsc",
-      "description": "scscscsc",
-      "thumbnail": "scscscsc"
-    },
-    {
-      "id": "551c42b5-381f-4866-a443-31048fb31142",
-      "title": "dcdsv",
-      "price": "dvdsvdv",
-      "rating": "dsvsdv",
-      "brand": "dvdv",
-      "stock": "dvdv",
-      "description": "dvdvd",
-      "thumbnail": "vdvdv"
-    },
-    {
       "id": "1a5ed39e-6a64-4b96-af90-0cac4bc80006",
       "title": "okkk",
       "price": "100",
@@ -643,164 +523,14 @@
       "thumbnail": "https://cdn.dummyjson.com/product-images/29/1.jpg"
     },
     {
-      "id": "3d0c7621-baf8-46fb-a15a-ed9750892010",
-      "title": "dsvsdv",
-      "price": "dvsdvd",
-      "rating": "dvsdv",
-      "brand": "vdsvsdv",
-      "stock": "vdsvsdv",
-      "description": "dsvsdvd",
-      "thumbnail": "vsdvsdv"
-    },
-    {
-      "id": "0b208d27-aac4-4bee-b9a2-79fb1409899c",
-      "title": "dvvdv",
-      "price": "dvdv",
-      "rating": "vdv",
-      "brand": "vdv",
-      "stock": 11,
-      "description": "dvd",
-      "thumbnail": "dvdv"
-    },
-    {
-      "id": "cbc6baea-d712-43f3-9f3f-55ee16a9eec9",
-      "title": "vdvv",
-      "price": "dsvdv",
-      "rating": "vdsv",
-      "brand": "dvsdv",
-      "stock": "sadasd",
-      "description": "vdv",
-      "thumbnail": "sdasd"
-    },
-    {
-      "id": "6da78918-a379-4738-a364-c3bc2f8524e3",
-      "title": "vdvv",
-      "price": "dsvdv",
-      "rating": "vdsv",
-      "brand": "dvsdv",
-      "stock": "sadasd",
-      "description": "vdv",
-      "thumbnail": "sdasd"
-    },
-    {
-      "id": "46b17cb5-aac6-4cda-9d1f-156290f13480",
-      "title": "vdvv",
-      "price": "dsvdv",
-      "rating": "vdsv",
-      "brand": "dvsdv",
-      "stock": "sadasd",
-      "description": "vdv",
-      "thumbnail": "sdasd"
-    },
-    {
-      "id": "40ff2f6c-d4d1-4a55-932b-f578aa8a4f5b",
-      "title": "vdvv",
-      "price": "dsvdv",
-      "rating": "vdsv",
-      "brand": "dvsdv",
-      "stock": "sadasd",
-      "description": "vdv",
-      "thumbnail": "sdasd"
-    },
-    {
-      "id": "07faae53-bb01-4511-ae7e-8df43b49cdcd",
-      "title": "fasdfas",
-      "price": "asfasf",
-      "rating": "asfasfsf",
-      "brand": "sfasf",
-      "stock": 1000,
-      "description": "safasfsafs",
-      "thumbnail": "safsafsaf"
-    },
-    {
-      "id": "802752b9-84d3-4d78-937d-469e8678b4ce",
-      "title": "scsc",
-      "price": "scsc",
-      "rating": "csc",
-      "brand": "csc",
-      "stock": 2,
-      "description": "sc",
-      "thumbnail": "scc"
-    },
-    {
-      "id": "7481cfca-113e-4b9f-be90-67def93a53ea",
-      "title": "scscscsc",
-      "price": "scscs",
-      "rating": "cscsc",
-      "brand": "scsc",
-      "stock": 2,
-      "description": "scsc",
-      "thumbnail": "scsc"
-    },
-    {
-      "id": "d9e54d0d-f71d-48fc-b416-1bf6762a690c",
-      "title": "dfsfsd",
-      "price": "sdfsdff",
-      "rating": "fsdfsd",
-      "brand": "sdfsdfsdfd",
-      "stock": 14223,
-      "description": "fsdf",
-      "thumbnail": "dsfsdf"
-    },
-    {
-      "id": "37ac5eb0-66c2-4e71-a4e2-be876061eec9",
-      "title": "dsfdsf",
-      "price": "dfssd",
-      "rating": "dsfsdf",
-      "brand": "dfsdf",
-      "stock": 1,
-      "description": "df",
-      "thumbnail": "df"
-    },
-    {
-      "id": "01fc9243-d36c-4b4a-8ccb-900185093d3e",
-      "title": "asc",
-      "price": "safs",
-      "rating": "afsf",
-      "brand": "sfsaf",
-      "stock": 2,
-      "description": "afssa",
-      "thumbnail": "asfsaf"
-    },
-    {
-      "id": "fb63f13d-0c34-4b0f-8210-e8745babfcb8",
-      "title": "fasf",
-      "price": "asfsaf",
-      "rating": "asfsaf",
-      "brand": "safsaf",
-      "stock": 2,
-      "description": "sfsaf",
-      "thumbnail": "safasf"
-    },
-    {
-      "id": "8ef47a93-21e5-4443-a05e-74948e49b4d3",
-      "title": "sdv",
-      "price": "sdvdv",
-      "rating": "vdsvdv",
-      "brand": "dvsdv",
-      "stock": 2,
-      "description": "dvsdv",
-      "thumbnail": "sdvd"
-    },
-    {
-      "id": "e19a78ee-b8ba-4515-ac2f-b0b35ca15fa3",
-      "title": "",
-      "price": "",
-      "rating": "",
-      "brand": "",
-      "stock": "",
-      "description": "",
-      "thumbnail": ""
-    },
-    {
-      "id": "de317b8b-38c8-4476-bb30-7c003b442732",
-      "title": "vsdvsdvd",
-      "price": "vsdv",
-      "rating": "vsdv",
-      "brand": "vdsvdsv",
-      "stock": 2,
-      "description": "dvdsv",
-      "thumbnail": "dvdsvd"
+      "id": "b1e49bb3-3b80-4ebd-b01d-1cdbf26af0ef",
+      "title": "new ",
+      "price": "50",
+      "rating": "50",
+      "brand": "apple",
+      "stock": 50,
+      "description": "new apple product",
+      "thumbnail": "https://cdn.dummyjson.com/product-images/1/thumbnail.jpg"
     }
   ]
 }
