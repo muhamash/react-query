@@ -5,15 +5,17 @@ import Product from './Product';
 
 const retrieveProducts = async ( object ) =>
 {
-    const response = await axios.get( `http://localhost:3000/${object.queryKey[0]}` );
-    console.log( "product", response, "and object", object )
+    const response = await axios.get( `http://localhost:3000/products?_page=${object.queryKey[1].page}&_per_page=3` );
+    console.log( "product", response, "and object", object.queryKey )
 
     return response.data;
 };
 
-export default function ProductList() {
+export default function ProductList ()
+{
+    const [ page, setPage ] = React.useState( 1 );
     const { data: productList, error, isLoading } = useQuery( {
-        queryKey: [ "products" ],
+        queryKey: [ "products", {page}],
         queryFn: retrieveProducts,
         // retry: true,
         // staleTime: 1000, 
@@ -31,7 +33,7 @@ export default function ProductList() {
                     <p className="text-green-800 text-center text-[30px] text-bold pb-5">Total Products: { productList.length }</p>
                     <div className="flex flex-wrap gap-10 justify-center items-center">
                         {
-                            productList && productList.map( ( product ) => (
+                            productList.data && productList.data.map( ( product ) => (
                                 <div key={ product.id }>
                                     <Product image={ product.thumbnail }
                                         title={ product.title }
@@ -43,7 +45,10 @@ export default function ProductList() {
                                 </div>
                             ) )
                         }
-                    </div>
+                        </div>
+                        <div>
+
+                        </div>
                 </div>
             ) }
         </div>

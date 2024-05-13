@@ -7,7 +7,6 @@ import { useSelectedId } from "./hooks/SelectedContext";
 const retrieveProducts = async ( object ) =>
 {
   const response = await axios.get( `http://localhost:3000/${object.queryKey[ 0 ]}/${object.queryKey[ 1 ]}` );
-  
   return response.data;
 };
 
