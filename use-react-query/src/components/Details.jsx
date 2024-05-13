@@ -31,7 +31,7 @@ export default function Details (  )
     {
       return <div className="text-red-700">Loading...</div>;
     }
-    
+
     if ( !selected )
     {
       return <div className="text-blue-800">Please select a product to view details.</div>;
@@ -43,6 +43,7 @@ export default function Details (  )
     }
     
     return <Trailer description={ productList.description } />;
+    
   }, [ isLoading, error, selected, productList ] );
 
   // if ( isLoading ) return <div className="text-red-700">Loading...</div>;

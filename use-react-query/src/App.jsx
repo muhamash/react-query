@@ -1,4 +1,5 @@
 import './App.css';
+import AddProducts from './components/AddProducts';
 import Details from './components/Details';
 import { SelectedContextProvider } from './components/hooks/SelectedContext';
 import ProductList from './components/ProductList';
@@ -15,11 +16,14 @@ function App ()
   return (
     <SelectedContextProvider>
       <div className="max-w-[1440px] p-5 mx-auto flex gap-5 justify-center ">
-        <div className='w-2/3'>
+        <div className='w-1/3'>
           <ProductList  />
         </div>
-        <div className="w-1/2">
+        <div className="w-1/3">
           <Details />
+        </div>
+        <div>
+          <AddProducts/>
         </div>
       </div>
     </SelectedContextProvider>
