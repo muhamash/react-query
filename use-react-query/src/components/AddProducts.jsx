@@ -4,8 +4,8 @@ export default function AddProducts ()
 {
     const [ state, setState ] = React.useState( {
         title: "",
-        price: "",
-        rating: "",
+        price:  0,
+        rating: 0,
         brand: "",
         stock: "",
         description: "",
@@ -14,12 +14,19 @@ export default function AddProducts ()
     {
         console.log('form', event)
         event.preventDefault();
+        console.log(state)
     }
 
     const handleChange = (event) =>
     {
-        const name = event.target.value
-        console.log(name)
+        const name = event.target.name;
+        const value = event.target.type === 'number' ? event.target.valueAsNumber : event.target.value;
+
+        setState( {
+            ...state,
+            [ name ]: value
+        } )
+        
     }
     return (
         <div className="bg-gray-100  p-5">
