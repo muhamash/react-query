@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "Muhammad Ashraful Alam",
   "license": "MIT",
-  "private": null,
+  "private": "false",
   "dependencies": {
     "json-server": "^1.0.0-alpha.23"
   },

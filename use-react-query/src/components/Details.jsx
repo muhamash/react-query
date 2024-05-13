@@ -50,7 +50,7 @@ export default function Details (  )
   // if ( error ) return <div className="text-blue-800">You have select product to watch details!</div>
 
   return (
-    <div classNames="flex flex-row gap-10">
+    <div className="flex flex-col gap-10">
       <p className="text-green-800 text-center text-[40px] text-bold">Show Details:</p>
       <p>{ rendered }</p>
       {/* {
