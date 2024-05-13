@@ -82,6 +82,7 @@ export default function AddProducts ()
                 className="flex flex-col gap-10"
             >
                 <input
+                    required
                     name="title"
                     onChange={ handleChange }
                     value={ state.title }
@@ -96,6 +97,7 @@ export default function AddProducts ()
                     placeholder="input ratings"
                 />
                 <input
+                    required
                     name="price"
                     onChange={ handleChange }
                     value={ state.price }
@@ -103,6 +105,7 @@ export default function AddProducts ()
                     placeholder="input price"
                 />
                 <input
+                    required
                     name="brand"
                     onChange={ handleChange }
                     value={ state.brand }
@@ -110,6 +113,7 @@ export default function AddProducts ()
                     placeholder="input brand"
                 />
                 <input
+                    required
                     name="stock"
                     type="number"
                     onChange={ handleChange }
@@ -118,6 +122,7 @@ export default function AddProducts ()
                     placeholder="how many?"
                 />
                 <input
+                    required
                     name="description"
                     onChange={ handleChange }
                     value={ state.description }

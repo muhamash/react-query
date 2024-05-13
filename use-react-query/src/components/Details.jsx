@@ -11,7 +11,7 @@ const retrieveProducts = async ( object ) =>
   return response.data;
 };
 
-export default function Details (  )
+export default function Details ( )
 {
   const { selected } = useSelectedId();
 

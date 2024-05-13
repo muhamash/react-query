@@ -553,21 +553,6 @@
       ]
     },
     {
-      "id": "d786"
-    },
-    {
-      "id": "42f8"
-    },
-    {
-      "id": "eab0"
-    },
-    {
-      "id": "9079"
-    },
-    {
-      "id": "1dd3"
-    },
-    {
       "id": "b6aa759d-57dc-439a-aa65-88a741d7d826",
       "title": "scasc",
       "price": "234",
@@ -786,6 +771,36 @@
       "stock": 2,
       "description": "sfsaf",
       "thumbnail": "safasf"
+    },
+    {
+      "id": "8ef47a93-21e5-4443-a05e-74948e49b4d3",
+      "title": "sdv",
+      "price": "sdvdv",
+      "rating": "vdsvdv",
+      "brand": "dvsdv",
+      "stock": 2,
+      "description": "dvsdv",
+      "thumbnail": "sdvd"
+    },
+    {
+      "id": "e19a78ee-b8ba-4515-ac2f-b0b35ca15fa3",
+      "title": "",
+      "price": "",
+      "rating": "",
+      "brand": "",
+      "stock": "",
+      "description": "",
+      "thumbnail": ""
+    },
+    {
+      "id": "de317b8b-38c8-4476-bb30-7c003b442732",
+      "title": "vsdvsdvd",
+      "price": "vsdv",
+      "rating": "vsdv",
+      "brand": "vdsvdsv",
+      "stock": 2,
+      "description": "dvdsv",
+      "thumbnail": "dvdsvd"
     }
   ]
 }
